@@ -13,12 +13,7 @@ cd otel-app
 composer install
 php artisan key:generate
 php artisan test
+docker run -d -p 9411:9411 openzipkin/zipkin
 ```
 
-In the otel example project
-
-```bash
-docker-compose up -d
-```
-
-Jaeger ui will be visiable at http://localhost:16686/search
+Zipkin will be visible at http://localhost:9411

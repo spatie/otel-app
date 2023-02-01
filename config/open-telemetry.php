@@ -13,7 +13,14 @@ return [
      */
     'drivers' => [
         Spatie\OpenTelemetry\Drivers\HttpDriver::class => [
-            'url' => 'http://localhost:9412/api/v2/spans',
+            'url' => 'http://localhost:9411/api/v2/spans'
+            /*
+            'url' => 'https://otelcol.aspecto.io:4317',
+            'headers' => [
+                'Authorization' => 'bbaef283-b7b0-400f-8984-a39930df7f8d',
+            ],
+            */
+           // 'url' => 'http://localhost:9412/api/v2/spans',
         ],
         /*
         Spatie\OpenTelemetry\Drivers\RayDriver::class => [],
