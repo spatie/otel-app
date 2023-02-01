@@ -17,8 +17,6 @@ class OpenTelemetryServiceProvider extends ServiceProvider
 
     protected function registerWatchers(): self
     {
-        return;
-
         collect([
             HttpClientWatcher::class,
             QueryWatcher::class,

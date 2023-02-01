@@ -12,12 +12,12 @@ return [
      * A driver is responsible for transmitting any measurements.
      */
     'drivers' => [
-        /*
         Spatie\OpenTelemetry\Drivers\HttpDriver::class => [
             'url' => 'http://localhost:9412/api/v2/spans',
         ],
-        */
+        /*
         Spatie\OpenTelemetry\Drivers\RayDriver::class => [],
+        */
     ],
 
     /*

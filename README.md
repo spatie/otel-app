@@ -14,3 +14,11 @@ composer install
 php artisan key:generate
 php artisan test
 ```
+
+In the otel example project
+
+```bash
+docker-compose up -d
+```
+
+Jaeger ui will be visiable at http://localhost:16686/search
